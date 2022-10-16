@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: myapp image deployment
+  name: munnaapp
   labels:
     role: myrole
 spec:
   containers:
-    - name: web
-      image: myapp
+    - name: mywebcon
+      image: mrunalthak/mrunalapp
       ports:
         - name: web
           containerPort: 80
