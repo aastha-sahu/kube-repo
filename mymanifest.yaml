@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
     - name: mywebcon
-      image: mrunalthak/mrunalwebapp:${BUILD_NUMBER}
+      image: 20aastha/first:v1.$BUILD_ID
       ports:
         - name: web
           containerPort: 80
